@@ -12,7 +12,7 @@ def generate_random_number(step: int) -> float:
 
 
 config = dict(hyperparameter=4,)
-run = wandb.init(project="my-test-project", config=config, save_code=False)
+run = wandb.init(project="my-test-project", config=config, save_code=True)
 
 with run:
     for step in range(100):
