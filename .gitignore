@@ -1,3 +1,4 @@
 tutorial/
 wandb/
 playground.py
+set_env_variables.bash
